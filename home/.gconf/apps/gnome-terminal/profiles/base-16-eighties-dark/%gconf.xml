@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_theme_background" mtime="1443341890" type="bool" value="false"/>
+	<entry name="use_theme_colors" mtime="1444667961" type="bool" value="false"/>
+	<entry name="bold_color_same_as_fg" mtime="1443341890" type="bool" value="true"/>
+	<entry name="bold_color" mtime="1444667961" type="string">
+		<stringvalue>#D3D3D0D0C8C8</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1444667961" type="string">
+		<stringvalue>#D3D3D0D0C8C8</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1444667961" type="string">
+		<stringvalue>#2D2D2D2D2D2D</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1444667961" type="string">
+		<stringvalue>#2D2D2D2D2D2D:#F2F277777A7A:#9999CCCC9999:#FFFFCCCC6666:#66669999CCCC:#CCCC9999CCCC:#6666CCCCCCCC:#D3D3D0D0C8C8:#747473736969:#F2F277777A7A:#9999CCCC9999:#FFFFCCCC6666:#66669999CCCC:#CCCC9999CCCC:#6666CCCCCCCC:#F2F2F0F0ECEC</stringvalue>
+	</entry>
+	<entry name="visible_name" mtime="1444667961" type="string">
+		<stringvalue>Base 16 Eighties Dark</stringvalue>
+	</entry>
+</gconf>

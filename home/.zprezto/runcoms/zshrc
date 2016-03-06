@@ -1,0 +1,52 @@
+#
+# Executes commands at the start of an interactive session.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+fpath=($HOME/.homesick/repos/homeshick/completions $fpath)
+
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Customize to your needs...
+
+#Common Aliases
+
+#Clear Screen
+alias cls="clear"
+
+#Directories
+alias home="cd ~"
+
+#Network Diag
+alias ip="ifconfig"
+alias iproute="ip route show"
+alias ping="ping -c 5"
+
+#Make Python3 Default
+alias python="python3.4"
+
+#Process Diag
+alias psg="ps aux | grep -v grep | grep -i -e VSZ -e"
+
+#Disk Diag
+alias df="df -Tha --total"
+alias du="du -ach | sort -h"
+
+#Routine Terminal Maintenance
+alias cls="clear"
+alias rmpyc="find . -name '*.pyc' -delete"
+
+#Quick Install
+alias ubinstall="sudo apt-get install"
+alias pyinstall="sudo pip install"
+alias pyinstall3="sudo pip3 install"
+
+#Tree
+alias tree2="tree -L 2"
+alias tree3="tree -L 3"
